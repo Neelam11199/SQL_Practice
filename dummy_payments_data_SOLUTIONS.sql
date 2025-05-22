@@ -1,3 +1,5 @@
+--1. Write a SQL query to calculate month-on-month revenue growth percentage.
+
 WITH monthly_revenue AS(    -- Using CTE
 	SELECT 
     DATE_FORMAT(Payment_date, '%Y-%m')AS month,
